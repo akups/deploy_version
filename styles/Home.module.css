@@ -104,6 +104,7 @@
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 2rem;
   color:white
 }
  
@@ -156,6 +157,7 @@ max-width: max-content;
   justify-content: center;
   overflow: scroll;
   align-items: center;
+  padding-right: 2rem;
 }
 
 .card {
@@ -285,15 +287,17 @@ max-width: max-content;
   transition: transform 150ms ease-in-out;
 }
 
-@media (max-width: 1000px) {
-  .slider {
-    --items-per-screen: 3;
+
+@media (max-width: 600px) {
+  .grid {
+    width: 25%;
+    flex-direction: column;
   }
 }
 
-@media (max-width: 500px) {
-  .slider {
-    --items-per-screen: 2;
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+    flex-direction: column;
   }
 }
-

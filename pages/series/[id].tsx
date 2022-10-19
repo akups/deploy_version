@@ -57,7 +57,7 @@ const Series = ({
           <p className={styles.detailTitle}>{data?.asset?.title}</p>
           <p className={styles.detailDescription}>{data?.asset?.description}</p>
           <Link href="/">
-            <a className={styles.subTitle}>Back to Home</a>
+            <a className={styles.subTitle}>Back Home</a>
           </Link>
         </div>
         <div>
